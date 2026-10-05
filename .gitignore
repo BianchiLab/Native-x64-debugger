@@ -23,3 +23,7 @@ a.out
 # Container/runtime workspace
 workspace/*
 !workspace/.gitkeep
+
+# Shared container workspace
+workspace/*
+!workspace/.gitkeep

@@ -1,1 +1,25 @@
-enter-container.sh
+# Build artifacts
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.out
+
+# Debugger / GDB
+.gdb_history
+.gdbinit.local
+
+# Executables
+debugger
+a.out
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Container/runtime workspace
+workspace/*
+!workspace/.gitkeep

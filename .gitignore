@@ -1,3 +1,6 @@
+Dockerfile 
+enter-container.sh
+
 # Build artifacts
 build/
 bin/

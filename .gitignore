@@ -20,10 +20,6 @@ a.out
 *.swp
 *~
 
-# Container/runtime workspace
-workspace/*
-!workspace/.gitkeep
-
 # Shared container workspace
-workspace/*
-!workspace/.gitkeep
+/workspace/*
+!/workspace/.gitkeep

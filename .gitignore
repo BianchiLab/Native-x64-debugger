@@ -23,6 +23,9 @@ a.out
 *.swp
 *~
 
-# Shared container workspace
-/workspace/*
-!/workspace/.gitkeep
+# Local book workspace
+workspace/
+
+
+# vcpkg installed dependencies
+vcpkg_installed/

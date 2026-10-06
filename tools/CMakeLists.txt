@@ -4,6 +4,7 @@ target_link_libraries(
     sdb
     PRIVATE 
         sdb::libsdb
+        PkgConfig::libedit
 )
 
 include (GNUInstallDirs)

@@ -6,3 +6,9 @@ target_link_libraries(
         sdb::libsdb
 )
 
+include (GNUInstallDirs)
+
+install(
+    TARGETS sdb
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
